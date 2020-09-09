@@ -1,0 +1,4 @@
+mkdir lll.txt                # 创建 111.txt文件
+git add 111.txt              # 添加到stage
+git status                   # 查看当前修改状态
+git commit -m '111.txt'      # 提交到本地仓库
