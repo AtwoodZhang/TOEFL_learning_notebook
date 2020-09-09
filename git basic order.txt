@@ -2,3 +2,9 @@ mkdir lll.txt                # 创建 111.txt文件
 git add 111.txt              # 添加到stage
 git status                   # 查看当前修改状态
 git commit -m '111.txt'      # 提交到本地仓库
+git log                      # 查看操作日志
+git log --pretty=online      # 单行格式查看操作日志
+git reset --hard HEAD^       # 将当前状态回退到上一个操作日志状态
+git reset --hard HEAD^^      # 将当前状态回退到上上个操作日志状态
+cat 111.txt                  # 查看111.txt文件内容
+git push -u origin master    # 将本地修改提交到远程仓库
