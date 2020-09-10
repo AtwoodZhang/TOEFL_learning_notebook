@@ -8,3 +8,7 @@ git reset --hard HEAD^       # 将当前状态回退到上一个操作日志状态
 git reset --hard HEAD^^      # 将当前状态回退到上上个操作日志状态
 cat 111.txt                  # 查看111.txt文件内容
 git push -u origin master    # 将本地修改提交到远程仓库
+git fetch origin master      # 取回origin主机的master分支
+git fetch <远程主机名>       # 该命令将某个远程主机的全部更新全部取回本地
+git branch                   # 查看本地所有分支
+git branch -r                # 查看远程所有分支
